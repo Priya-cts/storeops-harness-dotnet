@@ -1,0 +1,17 @@
+# .NET build output
+bin/
+obj/
+*.user
+
+# Harness working files — scratch space for the CURRENT sprint only.
+# .harness/reviews/ is committed; .harness/output/ is not.
+.harness/output/*
+!.harness/output/.gitkeep
+
+# IDE
+.vs/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
